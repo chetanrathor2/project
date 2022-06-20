@@ -1,0 +1,19 @@
+/* body{
+    background-image: url(img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    bg
+} */
+
+.container {
+  height: 941px;
+  width: 1107px;
+  position: absolute;
+  left: 385px;
+  top: 157px;
+  border-radius: 0px;
+  background-image: url(img/bg.png);
+  
+}
