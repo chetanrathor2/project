@@ -1,19 +1,303 @@
-/* body{
-    background-image: url(img/bg.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    bg
-} */
-
-.container {
-  height: 941px;
-  width: 1107px;
+.bg {
+  height: 609px;
+  width: 611px;
   position: absolute;
-  left: 385px;
-  top: 157px;
-  border-radius: 0px;
-  background-image: url(img/bg.png);
-  
+  top: 154px;
+  left: 379px;
+  background: url("img/bg.png") center center / cover no-repeat;
+}
+.container {
+  height: max-content;
+  width: max-content;
+  background-image: url("img/bg.png");
+}
+.top-heading {
+  border: none;
+  position: absolute;
+  width: 236px;
+  height: 132px;
+  left: 70px;
+  top: 30px;
+}
+.top-heading img {
+  width: 204px;
+  height: 131px;
+}
+.top-nav {
+  border: none;
+  position: absolute;
+  width: 619.83px;
+  height: 28px;
+  left: 420.34px;
+  top: 81px;
+}
+ul {
+  margin: 0px;
+}
+ul li {
+  margin-left: 58px;
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(19, 18, 18);
+}
+ul li a:hover{
+  color: rgb(19, 18, 18);
+
+}
+ul li a:link{
+  color: rgb(19, 18, 18);
+  text-decoration: none;
+
+}
+ul li a:visited{
+  color: rgb(19, 18, 18);
+
+}
+ul li a:active{
+  color: rgb(19, 18, 18);
+
+}
+
+.right-icon {
+  border: none;
+  position: absolute;
+  width: 119.44px;
+  height: 46px;
+  left: 1179.56px;
+  top: 67px;
+}
+.circle {
+  position: absolute;
+  inset: 13.13% 9.76% 0px 5px;
+}
+.bag {
+  position: absolute;
+  width: 45.3px;
+  height: 46px;
+  left: 40px;
+  top: 5px;
+}
+.centre-size {
+  border: none;
+  position: absolute;
+  height: 100px;
+  left: 135px;
+  top: 256px;
+}
+.centre-size-heading {
+  position: absolute;
+  width: 134px;
+  height: 24px;
+  left: 135px;
+  top: 230px;
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: rgb(19, 18, 18);
+}
+.rectangle1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  opacity: 0.1;
+  border: 1px solid rgb(19, 18, 18);
+}
+.rectangle2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 48px;
+  left: 60px;
+  opacity: 0.1;
+  border: 1px solid rgb(19, 18, 18);
+}
+.rectangle3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 48px;
+  left: 120px;
+  opacity: 0.1;
+  border: 1px solid rgb(19, 18, 18);
+}
+.rectangle4 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 40px;
+  height: 48px;
+  left: 180px;
+  opacity: 0.1;
+  border: 1px solid rgb(19, 18, 18);
+}
+.rec-text {
+  font-family: HelveticaNeueCyr;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(19, 18, 18);
+  place-content: center;
+}
+.centre-name {
+  border: none;
+  position: absolute;
+  width: 161px;
+  height: 23px;
+  left: 1017px;
+  top: 160px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(19, 18, 18);
+}
+.hunk {
+  position: absolute;
+  width: 300px;
+  height: 85px;
+  left: 1012px;
+  top: 160px;
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 85px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: rgb(19, 18, 18);
+}
+.hunk-description {
+  border: none;
+  position: absolute;
+  width: 319px;
+  height: 150px;
+  left: 996px;
+  top: 218px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgb(19, 18, 18);
+  opacity: 0.5;
+}
+.select-color {
+  border: none;
+  position: absolute;
+  width: 320px;
+  height: 161px;
+  left: 128px;
+  top: 350px;
+}
+.select-color-text {
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: rgb(19, 18, 18);
+}
+.color-list1 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: rgb(182, 161, 121);
+  border-radius: 100px;
+}
+.color-list2 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 50px;
+  background: black;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.color-list3 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 100px;
+  background: blue;
+  border-radius: 100px;
+  margin-left: 18px;
+}
+.color-list4 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 150px;
+  background: yellow;
+  border-radius: 100px;
+  margin-left: 25px;
+}
+.social-container {
+  border: none;
+  position: absolute;
+  width: 28px;
+  height: 132px;
+  left: 1179.56px;
+  top: 500px;
+}
+.insta {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 0px;
+}
+.fb {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 60px;
+}
+.twitter {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 120px;
+}
+.scroll {
+  position: absolute;
+  width: 150px;
+  height: 60px;
+  left: 113px;
+  top: 550px;
+  font-family: "Unica One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(19, 18, 18);
+  transform: rotate(-90deg);
+}
+.curve{
+  border: 1px solid grey;
 }
